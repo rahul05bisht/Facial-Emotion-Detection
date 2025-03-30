@@ -39,8 +39,8 @@ This project is a **Facial Emotion Detection System** that classifies human emot
 
 ### 🔹 **1️⃣ Install Dependencies**  
 Run the following command to install required libraries:  
-```bash
-pip install tensorflow keras numpy opencv-python matplotlib seaborn
+```pip install tensorflow keras numpy opencv-python matplotlib seaborn
+```
 
 **Run Emotion Detection on Images**
 -	Run this file: emotion_detect_from_image.py 
