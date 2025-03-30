@@ -44,10 +44,15 @@ Run the following command to install required libraries:
 **Run Emotion Detection on Images**
 -	Run this file: emotion_detect_from_image.py 
 -	As 2-3 sample images were in img folder you can also add to that and check for custom image just change image name with extension in line 14
-frame=cv2.imread("img/surp.jpeg") 
-- **Run Emotion Detection on Webcam**
+frame=cv2.imread("img/surp.jpeg")
+
+---
+ **Run Emotion Detection on Webcam**
 - Run this file: real_time_emotion.py
-- **To Train model and work with your model**
+
+---
+
+ **To Train model and work with your model**
 -	Download Dataset from Kaggle FER2013 and then check path 
 -	Check that the dataset paths in your code (train_data_dir and validation_data_dir) are correctly set to your local directory.
 -	The default settings in this project are:
